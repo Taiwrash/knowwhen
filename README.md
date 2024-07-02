@@ -44,10 +44,10 @@ payload = {
     }
 }
 response = requests.post(url, json=payload)
-predicted_payment_date = response.json()
+predicted_payment_date = response.json()["predicted_date"]
 
 ```
-["predicted_date"]<img width="1440" alt="Screenshot 2024-07-02 at 09 13 09" src="https://github.com/Taiwrash/knowwhen/assets/49725691/e48dfc6e-92df-4681-a560-f16a73c3cb8e">
+<img width="900" alt="Screenshot 2024-07-02 at 09 13 09" src="https://github.com/Taiwrash/knowwhen/assets/49725691/a76e67ba-d468-4d4f-8474-5187a8f38b18">
 
 
 ## Model Training
